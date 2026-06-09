@@ -2,7 +2,29 @@
 
 A hardware-accurate quantum decoherence and error correction simulator. Built to understand the actual bottleneck in quantum computing — not gate logic, but noise.
 
-![qdecohere screenshot](./docs/screenshot.png)
+## Screenshots
+
+### Dashboard Overview
+
+Shows the simulator architecture, hardware presets, threshold analysis, and fidelity metrics.
+
+![Overview](./docs/overview.png)
+
+---
+
+### Decoherence Parameters & Error-Correction Controls
+
+Interactive control panel for T₁ relaxation, T₂ dephasing, gate time, noise channels, and quantum error-correction schemes.
+
+![Parameters](./docs/parameters.png)
+
+---
+
+### Quantum State Evolution & Fidelity Analysis
+
+Bloch sphere visualization, fidelity decay curves, syndrome measurements, Monte Carlo simulation results, and logical vs physical qubit performance.
+
+![Simulator](./docs/simulator.png)
 
 **[Live demo →](https://quantum-decoherence-simulator-ybad6dj39.vercel.app)**
 
