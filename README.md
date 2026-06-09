@@ -4,7 +4,7 @@ A hardware-accurate quantum decoherence and error correction simulator. Built to
 
 ![qdecohere screenshot](./docs/screenshot.png)
 
-**[Live demo →](https://qdecohere.vercel.app)**
+**[Live demo →](https://quantum-decoherence-simulator-ybad6dj39.vercel.app)**
 
 ---
 
@@ -80,7 +80,7 @@ Real device parameters pulled from published benchmarks:
 ## Running locally
 
 ```bash
-git clone https://github.com/yourusername/qdecohere
+git clone https://github.com/Divyanshmehndiratta12/quantum-decoherence-simulator.git
 cd qdecohere
 npm install
 npm run dev
@@ -140,7 +140,7 @@ src/
 
 ## Why this exists
 
-I'm a first-year CS/ECE student working through quantum computing seriously — not the pop-science version. The thing that surprised me most is that quantum algorithms (Shor's, Grover's) are basically solved. The unsolved problem is hardware: keeping qubits coherent long enough to run them. That's what T₁, T₂, and error correction are about. This simulator is my attempt to build the intuition for that from first principles.
+I'm a first-year CS student working through quantum computing seriously — not the pop-science version. The thing that surprised me most is that quantum algorithms (Shor's, Grover's) are basically solved. The unsolved problem is hardware: keeping qubits coherent long enough to run them. That's what T₁, T₂, and error correction are about. This simulator is my attempt to build the intuition for that from first principles.
 
 ---
 
